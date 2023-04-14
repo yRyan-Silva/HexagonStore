@@ -1,3 +1,3 @@
 # HexagonStore
 
-Simple site of e-commerce
+Simple e-commerce website only the front end.
