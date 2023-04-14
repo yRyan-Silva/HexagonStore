@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="pt-BR" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/server.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="https://kit.fontawesome.com/cdaa1229a1.js" crossorigin="anonymous"></script>
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SmartStore - Servidor</title>
+
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <a href="index.html"><img class="bx bxl-c-plus-plus icon" src="imgs/HexagonStore.png"></a>
+            <div class="logo_name">
+                <a href="index.html">HexagonStore</a>
+            </div>
+            <i class='bx bx-menu' id="btn"></i>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="profile.html">
+                    <i class='bx bx-home'></i>
+                    <span class="links_name">Início</span>
+                </a>
+                <span class="tooltip">Início</span>
+            </li>
+            <li>
+                <a href="profile-plugins.html">
+                    <i class='bx bx-box'></i>
+                    <span class="links_name">Plugins</span>
+                </a>
+                <span class="tooltip">Plugins</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cart-alt'></i>
+                    <span class="links_name">Pendentes</span>
+                </a>
+                <span class="tooltip">Pendentes</span>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="links_name">Servidor</span>
+                </a>
+                <span class="tooltip">Servidor</span>
+            </li>
+            <li class="profile">
+                <a href="#">
+                    <i class='bx bx-log-out'></i>
+                    <span class="links_name">zDarK_NighT_</span>
+                </a>
+                <span class="tooltip">Deslogar</span>
+            </li>
+
+        </ul>
+    </div>
+    <section class="home-section">
+        <div class="container">
+            <h1 class="title">Seu servidor</h1>
+
+            <div class="wrapper">
+                <form action="#">
+                    <div class="field field-one">
+                        <input type="text" required>
+                        <label>IP 1</label>
+                    </div>
+                    <div class="field field-two">
+                        <input type="text" title="Preencha este campo." onkeyup="this.setAttribute('value', this.value);" value="">
+                        <label>IP 2</label>
+                    </div>
+                    <div class="field">
+                        <input type="submit" value="Atualizar">
+                    </div>
+                    <div class="field">
+                        <input type="submit" value="Adquirir mais IP's">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="js/sidebar.js"></script>
+    <script src="js/cancel-button.js"></script>
+</body>

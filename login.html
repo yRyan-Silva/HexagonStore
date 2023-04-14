@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartStore - Login</title>
+    <script src="https://kit.fontawesome.com/cdaa1229a1.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="header_menu">
+                <a href="index.html"><img src="imgs/HexagonStore.png" style="width: 60px;"></a>
+
+                <input type="checkbox" id="checkbox-menu">
+
+                <label for="checkbox-menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </label>
+
+                <ul class="mobile_list">
+                    <li><a href="index.html" class="button_mobile"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="plugins.html" class="button_mobile"><i class="fas fa-lightbulb"></i> Plugins</a></li>
+                    <li><a href="https://discord.gg/QyG4VbbNuP" target="_blank" class="button_mobile"><i class="fab fa-discord"></i> Discord</a></li>
+                    <li><a href="https://discord.gg/QyG4VbbNuP" target="_blank" class="button_mobile"><i class="fas fa-scroll"></i> Encomendar</a></li>
+                    <li><a href="login.html" class="button_mobile"><i class="fas fa-user"></i> Área do Cliente</a></li>
+                </ul>
+                <ul class="pc">
+                    <li><a href="index.html" class="button_header" style="text-decoration: none;"><i class="fas fa-home"></i> Início</a></li>
+                    <li><a href="plugins.html" class="button_header button_plugins" style="text-decoration: none;"><i class="fas fa-lightbulb"></i> Plugins</a> </li>
+                    <li><a href="https://discord.gg/QyG4VbbNuP" class="button_header" style="text-decoration: none;" target="_blank"><i class="fab fa-discord"></i> Discord</a></li>
+                    <li><a href="https://discord.gg/QyG4VbbNuP" class="button_header" style="text-decoration: none;" target="_blank"><i class="fas fa-scroll"></i> Encomendar</a></li>
+                    <li><a href="login.html" class="button_header button_user" style="text-decoration: none;"><i class="fas fa-user"></i> Área do Cliente</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="informations">
+        <div class="container">
+
+            <div class="wrapper">
+                <div class="title">
+                    Login
+                </div>
+
+                <div class="error">
+                    Usuário ou senha incorreto!
+                </div>
+
+                <form action="#">
+                    <div class="field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="field">
+                        <input type="password" required>
+                        <label>Senha</label>
+                    </div>
+                    <div class="content">
+                        <div class="checkbox">
+                            <input type="checkbox" id="remember-me">
+                            <label for="remember-me">Lembrar?</label>
+                        </div>
+                        <div class="pass-link">
+                            <a href="#">Esqueceu sua senha?</a>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="signup-link">
+                        Não tem uma conta? <a href="register.html">Registre-se</a>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="footer-dark" style="margin-top: 70px;">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Serviços</h3>
+                        <ul>
+                            <li><a href="plugins.html">Plugins</a></li>
+                            <li><a href="#">Acessórios</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>CEO's</h3>
+                        <ul>
+                            <li><a href="ceos.html">Lupan</a></li>
+                            <li><a href="ceos.html">Sailez</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Hexagon Store</h3>
+                        <p>Sailez gay</p>
+                    </div>
+                    <div class="col item social">
+                        <a href="https://discord.gg/QyG4VbbNuP" target="_blank"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Copyright © 2021 Todos os direitos reservados para Hexagon Store.<br>Este site não possui quaisquer vinculos com a Mojang AB.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/cancel-button.js"></script>
+    <script src="js/header.js"></script>
+
+</body>
+
+</html>
